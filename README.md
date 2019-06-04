@@ -1,9 +1,16 @@
+Original creator /u/EdgeMentality 
+See:
+https://www.reddit.com/r/jellyfin/comments/bvnt65/sharing_even_more_custom_css_and_some_fixes_to/
+
+Quote:
 I posted some customizations to the web UI using the custom CSS field. You can find that post here.
+
 I am posting all the same stuff here, below the new stuff, so check them for some new fixes.
 
 To use these simply copypaste them into "Custom CSS" field in general settings. Modify or mix and match them as you like.
 
 Darken the background
+
 This darkens the background on blue radiance, edit the percentage depending how dark you want it. Higher is darker.
 
 ```
@@ -28,7 +35,9 @@ Enlarges the tab buttons, suggested, genres, etc. By default they are really dam
 .headerTabs.sectionTabs {text-size-adjust: 100%;  font-size: 100%;}
 ```
 
-These above three enabled look like this: ![alt text](https://i.imgur.com/L7kG3No.jpg)
+These above three enabled look like this: 
+![alt text](https://i.imgur.com/L7kG3No.jpg)
+
 Minimalistic login page
 This looks even better together with the transparent top menu. I also changed the width unit from my last post because it caused things to jump around on mobile. You can use the "hide user" for each user to get rid of the user profiles (I did not want them visible for everyone to know).
 
@@ -45,7 +54,9 @@ This looks even better together with the transparent top menu. I also changed th
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
 ```
 
-End result: ![alt text](https://i.imgur.com/BrZxJh2.jpg)
+End result:
+![alt text](https://i.imgur.com/BrZxJh2.jpg)
+
 Stylized episode previews
 I have a 1440p monitor and as the episode previews are sized based on horizontal resolution, I ended up with a lot of wasted space on the episode summary and a high vertical page requiring a lot of scrolling to browse. My solution is maybe a little too simple but works very well and looks really cool in my opinion.
 
@@ -55,8 +66,10 @@ I have a 1440p monitor and as the episode previews are sized based on horizontal
 ```
 
 Looks like this in 1440p: ![alt text](https://i.imgur.com/tJNzOv3.jpg)
+
 1080p: https://i.imgur.com/waY2Pix.jpg
 Mobile: https://i.imgur.com/3xcYxl2.png
+
 Stylized and shrunk cast info
 Now with fixed default images. Before this did not round the default image displayed for actors who did not have images. I wasn't too fond of each actor taking up as much space as a season, so I changed it. Ended up very similar to how plex does it.
 
