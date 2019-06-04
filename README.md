@@ -28,7 +28,7 @@ Enlarges the tab buttons, suggested, genres, etc. By default they are really dam
 .headerTabs.sectionTabs {text-size-adjust: 100%;  font-size: 100%;}
 ```
 
-These above three enabled look like this: https://i.imgur.com/L7kG3No.jpg
+These above three enabled look like this: ![alt text](https://i.imgur.com/L7kG3No.jpg)
 Minimalistic login page
 This looks even better together with the transparent top menu. I also changed the width unit from my last post because it caused things to jump around on mobile. You can use the "hide user" for each user to get rid of the user profiles (I did not want them visible for everyone to know).
 
@@ -45,7 +45,7 @@ This looks even better together with the transparent top menu. I also changed th
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
 ```
 
-End result: https://i.imgur.com/BrZxJh2.jpg
+End result: ![alt text](https://i.imgur.com/BrZxJh2.jpg)
 Stylized episode previews
 I have a 1440p monitor and as the episode previews are sized based on horizontal resolution, I ended up with a lot of wasted space on the episode summary and a high vertical page requiring a lot of scrolling to browse. My solution is maybe a little too simple but works very well and looks really cool in my opinion.
 
@@ -54,7 +54,7 @@ I have a 1440p monitor and as the episode previews are sized based on horizontal
 .listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
 ```
 
-Looks like this in 1440p: https://i.imgur.com/tJNzOv3.jpg
+Looks like this in 1440p: ![alt text](https://i.imgur.com/tJNzOv3.jpg)
 1080p: https://i.imgur.com/waY2Pix.jpg
 Mobile: https://i.imgur.com/3xcYxl2.png
 Stylized and shrunk cast info
@@ -81,4 +81,4 @@ Now with fixed default images. Before this did not round the default image displ
 #castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {width: 50%; vertical-align: middle;}
 #castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.emby-button {width: 50%; vertical-align: middle;}
 ```
-End result: https://i.imgur.com/DXlt1I2.jpg
+End result: ![alt text](https://i.imgur.com/DXlt1I2.jpg)
