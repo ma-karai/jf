@@ -2,15 +2,13 @@ Original creator /u/EdgeMentality
 See:
 https://www.reddit.com/r/jellyfin/comments/bvnt65/sharing_even_more_custom_css_and_some_fixes_to/
 
-Quote:
+#Quote:
 I posted some customizations to the web UI using the custom CSS field. You can find that post here.
-
 I am posting all the same stuff here, below the new stuff, so check them for some new fixes.
 
 To use these simply copypaste them into "Custom CSS" field in general settings. Modify or mix and match them as you like.
 
 Darken the background
-
 This darkens the background on blue radiance, edit the percentage depending how dark you want it. Higher is darker.
 
 ```
