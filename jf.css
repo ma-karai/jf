@@ -41,3 +41,15 @@
 #castContent .cardOverlayButton-br {bottom: 4%; right: 15%; width: 70%;}
 #castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {width: 50%; vertical-align: middle;}
 #castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.emby-button {width: 50%; vertical-align: middle;}
+
+/*Proper audiobook cover scaleing*/
+[data-mediatype="Book"] .coveredImage { background-size: contain }
+[data-mediatype="Book"] .cardText-first { white-space: initial }
+[data-mediatype="Book"] .cardScalable { height: 16vw; min-height:180px }
+[data-mediatype="Book"] { width: 12vw; min-width:150px; }
+[data-mediatype="Book"] .cardContent-shadow { box-shadow: initial }
+[data-type="AudioBook"] .coveredImage { background-size: contain }
+[data-type="AudioBook"] .cardText-first { white-space: initial }
+[data-type="AudioBook"] .cardScalable { height: 16vw; min-height:180px }
+[data-type="AudioBook"] { width: 12vw; min-width:150px; }
+[data-type="AudioBook"] .cardContent-shadow { box-shadow: initial }
